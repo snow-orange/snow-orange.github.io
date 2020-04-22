@@ -1,6 +1,6 @@
 <template lang="html">
 	<section class="water-drop-welcome">
-		<h1>WELCOME</h1>
+		<h1>WELCOME!</h1>
 		<div>
 			<input type="text" maxlength="10" v-model.trim="name">
 			<button @click="startGame">START</button>
@@ -71,5 +71,7 @@ export default {
 	}
 	label b {
 		flex: 1 1 auto;
+		text-align: left;
+		margin-left:1em;
 	}
 </style>
