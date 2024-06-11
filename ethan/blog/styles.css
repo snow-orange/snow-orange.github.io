@@ -15,11 +15,38 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
-
+.whole {
+  width: 100%;
+}
+div::after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.left-part {
+  width: 50%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  box-shadow: 5px 4px 7px 2px #00000066;
+}
+.right-part {
+  width: 50%;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  box-shadow: -5px 4px 7px 2px #00000066;
+}
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: justify;
   color: #1f1f27;
+}
+.signature {
+  margin-top: 15px;
+  font-family: "Roboto";
+  text-align: end;
+  font-weight: bold;
 }
