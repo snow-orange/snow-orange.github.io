@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.blog {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  color: #1f1f27;
+}
